@@ -1,0 +1,9 @@
+1. ~/.aws/credentials ファイルを作る
+2. 上記ファイル内に以下を記述する。
+
+[default]
+aws_access_key_id = AKIAIUPFNKQVIXLUPB2Q
+aws_secret_access_key = 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
+
+3.(sudo) pip install boto3
+4.下のPythonスクリプトを python xxx.py hoge.jpg huga.jpg で実行すると認証結果が出力される

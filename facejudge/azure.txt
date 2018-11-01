@@ -1,0 +1,16 @@
+エンドポイント: https://westcentralus.api.cognitive.microsoft.com/face/v1.0
+
+キー 1: a0c5822d7fcf4a4fbf45f693d3f33efd
+
+キー 2: 2bda26b7524f46b5a48c930c4d0e5f49
+
+group
+POST https://japaneast.api.cognitive.microsoft.com/face/v1.0/persongroups/group/persons HTTP/1.1
+Host: japaneast.api.cognitive.microsoft.com
+Content-Type: application/json
+Ocp-Apim-Subscription-Key: a0c5822d7fcf4a4fbf45f693d3f33efd
+
+{
+    "name": "Person1",
+    "userData": "User-provided data attached to the person."
+}
